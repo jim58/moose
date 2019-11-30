@@ -1,5 +1,6 @@
 #!/usr/bin/python
-"""goose.py - moose with database stuff moved outside"""
+# 2019  Jim Harris <ja_harris@rogers.com>
+"""music file tag management"""
 
 import os
 import re
@@ -387,3 +388,4 @@ if __name__ == '__main__':
         
     fields = { 'db_album': "Safe Trip Home", 'db_artist': 'Dido' }
 
+    db.lookup(fields, sqltabledef)
