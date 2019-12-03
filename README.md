@@ -9,4 +9,4 @@ picture file management
 
 file archiving with duplicate file avoidance
 
-a perl module for manageing apache user accounts
+a perl module for managing apache user accounts
